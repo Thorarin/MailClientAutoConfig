@@ -1,5 +1,5 @@
 # MailClientAutoConfig
-PHP script to help serve Outlook autodiscover.xml as well as Mozilla autoconfig files.
+PHP script to help serve Outlook [autodiscover.xml](https://msdn.microsoft.com/en-us/library/cc463896%28v=exchg.80%29.aspx) as well as Mozilla [autoconfig](https://developer.mozilla.org/en-US/docs/Mozilla/Thunderbird/Autoconfiguration) files.
 
 Instead of making your users manually configure their email clients, you can publish the necessary settings on a web server. Several popular mail clients support this feature and will automatically configure based on an email address and a password. 
 
