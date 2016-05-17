@@ -19,6 +19,7 @@ Things this script does for you:
 ## Requirements
 * A web server capable of running PHP scripts and URL rewriting
 * A **SSL certificate** for **autoconfig.yourdomain.com**, **autodiscover.yourdomain.com**, as well as any additional domains you use. The most crucial of these is autodiscover.yourdomain.com, which is used by Outlook, which will use HTTPS to obtain its settings by default. It may revert to HTTP if the user persists, but will complain loudly before doing so.
+* DNS entries for the above host names pointing to the web server
 
 While pretty much any web server on any platform will do, only Apache 2 will be covered here in detail for now. 
 
