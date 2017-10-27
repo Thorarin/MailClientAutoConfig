@@ -16,7 +16,7 @@ $cfg->name = 'Example mail services';
 $cfg->nameShort = 'Example';
 
 // Domains for which these settings apply, in lowercase.
-$cfg->domains = [ 'example.com', 'example.net', 'example.org' ];
+$cfg->domains = array( 'example.com', 'example.net', 'example.org' );
 
 // This is the username associated with the email address. If some kind of lookup
 // needs to occur to map the email address to a username, this can be done by
