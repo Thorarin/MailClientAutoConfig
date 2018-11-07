@@ -48,7 +48,7 @@ $cfg->username = "$localpart";
 $cfg->addServer('imap', 'imap.example.com')
     ->withEndpoint('STARTTLS')
     ->withEndpoint('SSL');
-    
+
 // Example POP3 server for incoming mail, running on port 110 (TLS) and 995 (SSL)    
 $cfg->addServer('pop3', 'pop.example.com')
     ->withEndpoint('STARTTLS')
@@ -58,4 +58,7 @@ $cfg->addServer('pop3', 'pop.example.com')
 $cfg->addServer('smtp', 'smtp.example.com')
     ->withEndpoint('STARTTLS', 587)
     ->withEndpoint('SSL');
-   
+
+// Example ActiveSync server
+$cfg->addServer('activesync', 'mail.example.com')
+    ->withEndpoint('https', 443);
